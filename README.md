@@ -18,6 +18,8 @@ For speaker, state and party columns, we use word embedding directly.
 
 Concatenate all feature vectors above and pass them all through a fully connected layer followed by LogSoftmax loss.
 
+![Overall architecture](architecture.png)
+
 ### How to Use
 
 [TODO] Support argument parser.
